@@ -1,124 +1,345 @@
 fileFormatVersion: 2
 guid: 9dc222aeaf09a2f4593135974cd2a064
-timeCreated: 1477924192
-licenseType: Free
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Armature
-    100002: ArmL01
-    100004: ArmL02
-    100006: ArmR01
-    100008: ArmR02
-    100010: Bone
-    100012: Bone_001
-    100014: Bone_009
-    100016: Bone_010
-    100018: Botton_Center
-    100020: CenterSpinBone
-    100022: //RootNode
-    100024: EarL
-    100026: EarR
-    100028: FeetL
-    100030: FeetR
-    100032: Head
-    100034: HolderFeet_L
-    100036: HolderFeet_R
-    100038: Leg01L
-    100040: Leg01R
-    100042: Leg02L
-    100044: Leg02R
-    100046: Neck
-    100048: Player_Character
-    100050: spikeDOWNL01
-    100052: spikeDOWNL02
-    100054: spikeDOWNR01
-    100056: spikeDOWNR02
-    100058: SpikeTop01
-    100060: SpikeTop02
-    100062: spikeUPL01
-    100064: spikeUPL02
-    100066: spikeUPR01
-    100068: spikeUPR02
-    400000: Armature
-    400002: ArmL01
-    400004: ArmL02
-    400006: ArmR01
-    400008: ArmR02
-    400010: Bone
-    400012: Bone_001
-    400014: Bone_009
-    400016: Bone_010
-    400018: Botton_Center
-    400020: CenterSpinBone
-    400022: //RootNode
-    400024: EarL
-    400026: EarR
-    400028: FeetL
-    400030: FeetR
-    400032: Head
-    400034: HolderFeet_L
-    400036: HolderFeet_R
-    400038: Leg01L
-    400040: Leg01R
-    400042: Leg02L
-    400044: Leg02R
-    400046: Neck
-    400048: Player_Character
-    400050: spikeDOWNL01
-    400052: spikeDOWNL02
-    400054: spikeDOWNR01
-    400056: spikeDOWNR02
-    400058: SpikeTop01
-    400060: SpikeTop02
-    400062: spikeUPL01
-    400064: spikeUPL02
-    400066: spikeUPR01
-    400068: spikeUPR02
-    4300000: Player_Character
-    7400000: Default Take
-    7400002: Attack01
-    7400004: GetIten
-    7400006: JumpFall
-    7400008: JumpUp
-    7400010: KockBack
-    7400012: KockBack_001
-    7400014: Pose
-    7400016: Project_001
-    7400018: Push
-    7400020: Run_High
-    7400022: Run_Med
-    7400024: RunningBlock
-    7400026: RunningBlockFaster
-    7400028: Spinning
-    7400030: Spinning_Jump
-    7400032: Spinning_Jump_001
-    7400034: Standing
-    7400036: TrowIten
-    7400038: WalkEmotion
-    7400040: Skidding
-    9500000: //RootNode
-    13700000: Player_Character
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: ArmL01
+  - first:
+      1: 100004
+    second: ArmL02
+  - first:
+      1: 100006
+    second: ArmR01
+  - first:
+      1: 100008
+    second: ArmR02
+  - first:
+      1: 100010
+    second: Bone
+  - first:
+      1: 100012
+    second: Bone_001
+  - first:
+      1: 100014
+    second: Bone_009
+  - first:
+      1: 100016
+    second: Bone_010
+  - first:
+      1: 100018
+    second: Botton_Center
+  - first:
+      1: 100020
+    second: CenterSpinBone
+  - first:
+      1: 100022
+    second: //RootNode
+  - first:
+      1: 100024
+    second: EarL
+  - first:
+      1: 100026
+    second: EarR
+  - first:
+      1: 100028
+    second: FeetL
+  - first:
+      1: 100030
+    second: FeetR
+  - first:
+      1: 100032
+    second: Head
+  - first:
+      1: 100034
+    second: HolderFeet_L
+  - first:
+      1: 100036
+    second: HolderFeet_R
+  - first:
+      1: 100038
+    second: Leg01L
+  - first:
+      1: 100040
+    second: Leg01R
+  - first:
+      1: 100042
+    second: Leg02L
+  - first:
+      1: 100044
+    second: Leg02R
+  - first:
+      1: 100046
+    second: Neck
+  - first:
+      1: 100048
+    second: Player_Character
+  - first:
+      1: 100050
+    second: spikeDOWNL01
+  - first:
+      1: 100052
+    second: spikeDOWNL02
+  - first:
+      1: 100054
+    second: spikeDOWNR01
+  - first:
+      1: 100056
+    second: spikeDOWNR02
+  - first:
+      1: 100058
+    second: SpikeTop01
+  - first:
+      1: 100060
+    second: SpikeTop02
+  - first:
+      1: 100062
+    second: spikeUPL01
+  - first:
+      1: 100064
+    second: spikeUPL02
+  - first:
+      1: 100066
+    second: spikeUPR01
+  - first:
+      1: 100068
+    second: spikeUPR02
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: ArmL01
+  - first:
+      4: 400004
+    second: ArmL02
+  - first:
+      4: 400006
+    second: ArmR01
+  - first:
+      4: 400008
+    second: ArmR02
+  - first:
+      4: 400010
+    second: Bone
+  - first:
+      4: 400012
+    second: Bone_001
+  - first:
+      4: 400014
+    second: Bone_009
+  - first:
+      4: 400016
+    second: Bone_010
+  - first:
+      4: 400018
+    second: Botton_Center
+  - first:
+      4: 400020
+    second: CenterSpinBone
+  - first:
+      4: 400022
+    second: //RootNode
+  - first:
+      4: 400024
+    second: EarL
+  - first:
+      4: 400026
+    second: EarR
+  - first:
+      4: 400028
+    second: FeetL
+  - first:
+      4: 400030
+    second: FeetR
+  - first:
+      4: 400032
+    second: Head
+  - first:
+      4: 400034
+    second: HolderFeet_L
+  - first:
+      4: 400036
+    second: HolderFeet_R
+  - first:
+      4: 400038
+    second: Leg01L
+  - first:
+      4: 400040
+    second: Leg01R
+  - first:
+      4: 400042
+    second: Leg02L
+  - first:
+      4: 400044
+    second: Leg02R
+  - first:
+      4: 400046
+    second: Neck
+  - first:
+      4: 400048
+    second: Player_Character
+  - first:
+      4: 400050
+    second: spikeDOWNL01
+  - first:
+      4: 400052
+    second: spikeDOWNL02
+  - first:
+      4: 400054
+    second: spikeDOWNR01
+  - first:
+      4: 400056
+    second: spikeDOWNR02
+  - first:
+      4: 400058
+    second: SpikeTop01
+  - first:
+      4: 400060
+    second: SpikeTop02
+  - first:
+      4: 400062
+    second: spikeUPL01
+  - first:
+      4: 400064
+    second: spikeUPL02
+  - first:
+      4: 400066
+    second: spikeUPR01
+  - first:
+      4: 400068
+    second: spikeUPR02
+  - first:
+      43: 4300000
+    second: Player_Character
+  - first:
+      74: 7400000
+    second: Default Take
+  - first:
+      74: 7400002
+    second: Attack01
+  - first:
+      74: 7400004
+    second: GetIten
+  - first:
+      74: 7400006
+    second: JumpFall
+  - first:
+      74: 7400008
+    second: JumpUp
+  - first:
+      74: 7400010
+    second: KockBack
+  - first:
+      74: 7400012
+    second: KockBack_001
+  - first:
+      74: 7400014
+    second: Pose
+  - first:
+      74: 7400016
+    second: Project_001
+  - first:
+      74: 7400018
+    second: Push
+  - first:
+      74: 7400020
+    second: Run_High
+  - first:
+      74: 7400022
+    second: Run_Med
+  - first:
+      74: 7400024
+    second: RunningBlock
+  - first:
+      74: 7400026
+    second: RunningBlockFaster
+  - first:
+      74: 7400028
+    second: Spinning
+  - first:
+      74: 7400030
+    second: Spinning_Jump
+  - first:
+      74: 7400032
+    second: Spinning_Jump_001
+  - first:
+      74: 7400034
+    second: Standing
+  - first:
+      74: 7400036
+    second: TrowIten
+  - first:
+      74: 7400038
+    second: WalkEmotion
+  - first:
+      74: 7400040
+    second: Skidding
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Player_Character
+  - first:
+      74: -623603649343465320
+    second: Scene
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye_Eye.png_Eye.png
+    second: {fileID: 2100000, guid: 6036130c44eafaf4caf5eb5f9842cc45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Face_FaceA.png_FaceA.png
+    second: {fileID: 2100000, guid: 4cc1d3fcd144b824e87de6e35fc50468, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hand_Hand.png_Hand.png
+    second: {fileID: 2100000, guid: 8c9ab05be1014e849a071594fbe64215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoe_She.pngs_She.png
+    second: {fileID: 2100000, guid: 81a843c20adfc284789e1b167596831c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin_Belly.png_Belly.png
+    second: {fileID: 2100000, guid: 4a1f3a6cce82c5d47841efb4abe62a09, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -126,13 +347,23 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -142,9 +373,14 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -154,11 +390,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
